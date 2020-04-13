@@ -8,6 +8,8 @@
 # install.packages("plotly")
 # install.packages("shinyjs")
 # install.packages("ggplot2")
+# install.packages("devtools")
+
 
 get_bmi_by_index_number <- function(bmi_index) {
   return(as.character(cut(
